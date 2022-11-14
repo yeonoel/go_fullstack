@@ -12,7 +12,7 @@ app.use((req, res, next) => {
     next();
   });
 
-  mongoose.connect('mongodb+srv://ypn:Le47492156@cluster0.seszc.mongodb.net/?retryWrites=true&w=majority',
+  mongoose.connect('mongodb+srv://ypn:<PASSWORD>@cluster0.seszc.mongodb.net/?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
