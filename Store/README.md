@@ -1,0 +1,1 @@
+# Basic API for an online store that allows to create, read, modify and delete products
